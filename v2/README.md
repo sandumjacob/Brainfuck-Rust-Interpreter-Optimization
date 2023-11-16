@@ -1,0 +1,1 @@
+In v1, the most expensive interpreter operation was scanning for matching brackets, with n^2 complexity. We can preprocess the brainfuck source code to cache matching bracket locations, improving the runtime performance.
